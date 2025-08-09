@@ -9,8 +9,8 @@ import json
 import uuid
 from typing import Dict, Any
 
-# Use the frontend environment variable for backend URL
-BACKEND_URL = "/api"  # From frontend/.env REACT_APP_BACKEND_URL
+# Use localhost for testing the backend directly
+BACKEND_URL = "http://localhost:8001/api"  # Backend runs on port 8001 internally
 
 def test_health_endpoint():
     """Test the health endpoint"""
