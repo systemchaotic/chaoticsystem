@@ -4,3 +4,4 @@ pydantic
 motor
 python-dotenv
 pydantic[email]
+google-genai
