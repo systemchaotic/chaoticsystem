@@ -1,0 +1,9 @@
+.btn {
+  @apply inline-flex items-center gap-2 px-3 py-2 rounded-md bg-brand-600 text-white hover:bg-brand-700 transition;
+}
+.input {
+  @apply border rounded px-3 py-2 w-full;
+}
+.card {
+  @apply bg-white rounded-lg shadow p-4;
+}
